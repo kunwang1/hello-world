@@ -5,18 +5,22 @@ import java.security.NoSuchAlgorithmException;
 
 public class HelloWorld {
 	
+	private static String fid = "AKIAI44QH8DHBEXAMPLE";
+	private static String fpk = "je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY";
+	
 	// Will remove after testing
 	public static void main(String[] args)
 	{
-		System.out.println("a story change");
-		
+		System.out.println("fid = " + fid);
+		System.out.println("fpk = " + fpk);
+				
 		stringEqualityCheckNoncompliant("hello", "hello");
 		executeSqlStatementNoncompliant(null, null);
 		keyPairGeneratorNoncompliant();
 	}
 	
 	public static void stringEqualityCheckNoncompliant(String string1, String string2) {
-    	// Noncompliant: the == operator doesn't compare the contents of the strings.
+    		// Noncompliant: the == operator doesn't compare the contents of the strings.
    		if(string1 == string2) {
         		System.out.println("The strings are equal.");
     		}
