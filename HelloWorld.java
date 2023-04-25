@@ -7,7 +7,7 @@ public class HelloWorld {
 	
 	private static String fid = "AKIAI44QH8DHBEXAMPLE";
 	private static String fpk = "je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY";	
-	private static String slk = sk_live_454kjkj4545FD3434Srere7878
+	private static String slk = sk_live_454kjkj4545FD3434Srere7878;
 	
 	// Will remove after testing
 	public static void main(String[] args)
